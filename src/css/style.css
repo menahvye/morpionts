@@ -1,0 +1,82 @@
+body {
+    background-color: #353740;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align:center;
+    font-family: Arial, sans-serif;
+    color:#bdc1c6;
+    margin-bottom:0;
+}
+
+.tableau{
+    display:flex;
+    justify-content: center;
+}
+
+.ligne{
+    display:flex;
+    flex-direction:column;
+}
+
+.case{
+    width:190px;
+    height:190px;
+    display:flex;
+    cursor: pointer;
+}
+
+.t{
+    position:absolute;
+    width:400px;
+    height:50px;
+    top:320px;
+    padding: 0;
+}
+
+.msg{
+    background-color: rgb(44, 2, 2);
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:0;
+    padding:15px 20px;
+    cursor: pointer;
+}
+
+.c1{border:1px solid #bdc1c6}
+.c2{border-right:1px solid #bdc1c6;border-left:1px solid #bdc1c6}
+.c3{border-top:1px solid #bdc1c6;border-bottom:1px solid #bdc1c6}
+
+.croix{
+    background: url("../img/croix.webp") no-repeat;
+    background-size: 185px;
+    background-position: center;
+    cursor: default;
+}
+
+.rond{
+    background: url("../img/rond.png") no-repeat;
+    background-size:145px;
+    background-position: center;
+    cursor: default;
+}
+
+.wcroix{
+    width:70px;
+    height:70px;
+    margin:auto;
+    background: url("../img/croix.webp") no-repeat;
+    background-size:100%;
+    background-position: center;
+}
+
+.wrond{
+    width:70px;
+    height:70px;
+    margin:auto;
+    background: url("../img/rond.png") no-repeat;
+    background-size:90%;
+    background-position: center;
+}
